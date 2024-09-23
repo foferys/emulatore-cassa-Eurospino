@@ -8,17 +8,17 @@ Base URL:
 
 https://img.shields.io/badge/
 Label:
-
 È il testo a sinistra del badge. Nel tuo esempio, react è il label.
+
 Message:
-
 È il testo a destra del badge. Nel tuo esempio, vite è il message.
+
 Color:
-
 È il colore di sfondo del badge. Nel tuo esempio, blue è il colore scelto.
-Logo:
 
+Logo:
 È il logo che appare a sinistra del badge. Nel tuo esempio, react è il logo che rappresenta React. Il parametro logo= è opzionale e può essere omesso se non si desidera un logo.
+
 Esempio Spiegato:
 Il tuo badge specifico per React e Vite ha la seguente struttura:
 
@@ -32,35 +32,22 @@ Logo: react
 Questo URL genera un badge con il testo "react" a sinistra, "vite" a destra, un colore di sfondo blu e il logo di React.
  -->
 [![Contributors](https://img.shields.io/badge/contributors-1-46CC12)](#contributors-)
+[![javascript](https://img.shields.io/badge/javascript-grey?logo=javascript)](https://it.wikipedia.org/wiki/JavaScript/)
 [![pp](https://img.shields.io/badge/Buy_me_a_coffee-3775A9?logo=paypal)](https://www.paypal.com/paypalme/foferys)
 
 ## About
 ![screenshot](./screenshot.png)
 
-This application is a basic exercise using javascript. The entire codebase is thoroughly commented to aid understanding and learning. The project demonstrates the use of two types of "servers":
+This application is a basic game emulator exercise using javascript.
 
-1. A server created from a JSON file containing the data.
-2. A local server with MongoDB connected to the React app.
-
-In this application, you can add, modify, and delete users in the table, providing a hands-on experience with CRUD operations.
-##### Delete, add or edit users
-![screenshot](./del.png)
-
-<p align="right">(<a href="#-about">back to top</a>)</p>
-
+In this emulator, you you can train at the cashier's job, learning to give change in the right way.
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project.
+This section should list any major technologies used in this project.
 
-[![react redux](https://img.shields.io/badge/React_Redux-20232A?style=for-the-badge&logo=redux&logoColor=61DAFB)](https://reactjs.org/)
-[![react router dom](https://img.shields.io/badge/React_Router-gray?style=for-the-badge&logo=reactRouter&logoColor=CA4245)](https://reactrouter.com/en/main)
-[![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![javascript](https://img.shields.io/badge/javascript-grey?logo=javascript)](https://it.wikipedia.org/wiki/JavaScript/)
 [![bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)](https://getbootstrap.com)
-[![axios](https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white)](https://www.npmjs.com/package/axios)
-[![framer motion](https://img.shields.io/badge/Framer_motion-^11.2.10-5FA04E?style=for-the-badge)](https://www.npmjs.com/package/framer-motion)
-[![express](https://img.shields.io/badge/express-^4.19.2-5FA04E?style=for-the-badge)](https://www.npmjs.com/package/express)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -70,25 +57,11 @@ This section should list any major frameworks/libraries used to bootstrap your p
 To begin developing, do this:
 
 ```bash
-$ git@github.com:foferys/react-crud-mongodb.git
+$ git@github.com:foferys/emulatore-cassa-Eurospino.git
 ```
 
-### Install & Start:
-_👀 client and server installation & start_
-```bash
-# Navigate to the client directory and install dependencies
-$ cd client
-$ npm install
-$ npm run dev
+<p align="right">(<a href="#-about">back to top</a>)</p>
 
-# Navigate back to the root directory
-$ cd ..
-
-# Navigate to the server directory and install dependencies
-$ cd server
-$ npm install
-$ npm start
-```
 
 ## Contributors ✨ 
 [![](https://img.shields.io/badge/contributors-1-46CC12)](# "Contributors")
@@ -100,7 +73,11 @@ $ npm start
 <table>
   <tbody>
     <tr>
-      <td align="center" valign="top" width="14.28%"><a href="https://github.com/gianpieroferraro"><img src="https://avatars.githubusercontent.com/u/123701797?v=4" width="100px;" alt="Gianpiero Ferraro"/><br /><sub><b>Gianpiero Ferraro</b>(always me lol)</sub></a><br />
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/gianpieroferraro"><img src="https://avatars.githubusercontent.com/u/123701797?v=4" width="100px;" alt="Gianpiero Ferraro"/><br /><sub><b>Gianpiero Ferraro</b></sub></a><br />
+      </td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/foferys"><img src="https://avatars.githubusercontent.com/u/110233101?v=4" width="100px;" alt="Gianpiero Ferraro foferys"/><br /><sub><b>Foferys (Gianpiero Ferraro)</b>(always me lol)</sub></a><br />
       </td>
     </tr>
 </tbody>
