@@ -39,8 +39,15 @@ Questo URL genera un badge con il testo "react" a sinistra, "vite" a destra, un 
 ![screenshot](./screenshot.png)
 
 This application is a basic game emulator exercise using javascript.
-
 In this emulator, you you can train at the cashier's job, learning to give change in the right way.
+
+## How it works:
+![scan spesa](./scan.png)
+- Press "Scan spending" to get the total amount of the customer's spending;
+![client](./client.png)
+- Using the numeric keyboard, enter the amount received from the customer;
+![resto](./resto.png)
+- Press "Open cash" to open the cash and give change by clicking on the banknotes and/or coins; Press "go" to calculate whether you gave change correctly.
 
 ### Built With
 
